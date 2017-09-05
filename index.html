@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<!-- ==============================
+    Project:        Metronic "Acecv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Metronic "Acecv" Frontend Freebie</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+
+        <!-- image slider -->
+        <link href="css/4/js-image-slider.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+                //The following script is for the group 2 navigation buttons.
+                var arr=["img/codePublisher/code_publisher-1.png",
+                "img/codePublisher/code_publisher-2.png",
+                "img/codePublisher/code_publisher-3.png",
+                "img/codePublisher/code_publisher-4.png",
+                "img/codePublisher/code_publisher-5.png",
+                "img/codePublisher/code_publisher-6.png",
+                "img/codePublisher/code_publisher-7.png"]
+                var counter = 0;
+                
+                function next() {
+                    counter++;
+                    if (counter == 7)
+                        counter = 0;
+                    document.getElementById("latestProject").src = arr[counter];
+                }
+                
+                function previous() {
+                    counter--;
+                    if (counter == -1)
+                        counter = 6;			
+                    document.getElementById("latestProject").src = arr[counter];
+                }
+                
+                function openImage(){
+                    window.open(document.getElementById("latestProject").src);
+                }
+    </script>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#education">education</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#projects">Projects</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#testimonials">Testimonials</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">Pranjul Arora</h1>
+                             <p class="promo-block-text">Graduate Student,  Graduate Teaching Assistant <br /> at Syracuse University</p> 
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="http://www.linkedin.com/in/pranjulArora" target="_blank" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a href="https://github.com/pranjularora" target="_blank" class="social-icons"><i class="icon-social-github"></i></a></li>
+                            <li><a href="pdf/Resume- PRANJUL ARORA.pdf" target="_blank" class="social-icons"><i class="icon-screen-tablet"></i></a></li>
+                            <!-- <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" style="height:500px; margin-top:-50; bottom:15px" src="img/Pranjul1.jpg" align="Avatar">
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                     <!-- <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+                    </div>  -->
+                    <div class="text-center col-sm-6">
+                        <div class="margin-b-50">
+                            <div class="margin-b-70">
+                                <div class="margin-b-70">
+                                    <h2>About Me</h2> <br /> <br />
+                                    <p>I am currently pursuing Master of Science in Computer Engineering from Syracuse University. I am looking forward to obtaining a position as a Software Engineer, allowing to utilize my strong design and analytical skills gained through relevant education and work experience. I also seek the opportunity to learn new technical skills for future use.</p>
+                                </div>
+                                <a href="pdf/Resume- PRANJUL ARORA.pdf" download="pdf/Resume- PRANJUL ARORA.pdf" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "text-center col-sm-6">
+                        <h2>My Skills</h2>
+                        <!-- Progress Box -->
+                        <div class="progress-box text-left margin-l-10 margin-r-10">
+                            <h5>C++ - (C++ CLI, Sockets, Multi-threading) <span class="color-heading pull-right">Expert</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box text-left margin-l-10 margin-r-10">
+                            <h5>C#.NET - (WCF, WPF, Multi-threading) <span class="color-heading pull-right">Expert</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="93"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box text-left margin-l-10 margin-r-10">
+                            <h5>Java, JSP, Servlets, Shell scripting <span class="color-heading pull-right">Expert</span></h5>
+                            <div class="progress text-left">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="94"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box text-left margin-l-10 margin-r-10">
+                            <h5>Swift3, Android Prgramming, Firebase <span class="color-heading pull-right">Expert</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="99"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box text-left margin-l-10 margin-r-10">
+                            <h5>JavaScript, Jquery, HTML, XML, SQL <span class="color-heading pull-right">Intermediate</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- education -->
+        <div id="education">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+
+                    <div class="row margin-b-40">
+                        <div class="col-sm-16">
+                            <h2 align="center">Education</h2>
+                        </div>
+                    </div>
+                    
+
+                    <div class="center-block">
+                        <div class="col-md-13 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="auto">
+                                <div class="service-element">
+                                    <i class="service-icon icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>BTech, Information Technology- <span style="color:gray; font-size:80%;"> (2010 - 2014)  </span> </h3>
+                                    <p class="margin-b-5">ITM University, Gurgaon, India</p>
+                                    <p class="margin-b-5">GPA- 7.76/10.0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-13 col-sm-6 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="auto" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">MS, Computer Engineering- <span style="color:whitesmoke; font-size:80%;"> (2016 - Present)  </span> </h3>
+                                    <p class="color-white margin-b-5">Syracuse University, NY</p>
+                                    <p class="color-white margin-b-5">GPA- 3.889/4.0</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <!-- <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Photoshop</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Sketch</h3>
+                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div> -->
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End education -->
+
+        
+
+
+        <!-- Experience -->
+        <div id="work">
+            <div class="bg-color-sky-light" >
+                <div class="container content-lg">
+
+                    <div class="row margin-b-40">
+                        <div class="col-sm-16">
+                            <h2 align="center">Experience</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="mx-auto margin-b-10">
+                      
+                        <div class="service bg-color-base wow zoomIn col-xs-12 margin-b-10" data-height="auto" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-info">
+                                    <h3 class="color-white">Graduate Teaching Assistant - <span style="color:whitesmoke; font-size:80%;"> Syracuse University (Aug 2017 - Present 2017)  </span> </h3>
+                                    <p class="color-white margin-b-5">Teaching Assistant for graduate coursework Android Programming at Syracuse University.</p>
+                                </div>
+                        </div>
+
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info">
+                                    <h3>iOS Developer Intern - <span style="color:gray; font-size:80%;"> Up2Code (May 2017 - July 2017)  </span> </h3>
+                                    <p class="margin-b-5"> Developed an iOS application named LOUDSCORE. 
+                                        This application gives users real-time information on their favorite bars and restaurants. 
+                                        I have used swift 3 to develop application's front-end. For the back-end, this application 
+                                        uses Firebase. I have also used cloud functions to manage server-side functionality on Firebase. 
+                                    </p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-3 col-sm-6 md-margin-b-4"> -->
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height" >
+                                <div class="service-info">
+                                    <h3>Member Technical Staff - <span style="color:gray; font-size:80%;"> NEC Technologies India Pvt. Ltd. (May 2017 - July 2017)  </span> </h3>
+                                     <p class="margin-b-5"> ClusterPro Replacement (HydraSTOR’s Component- NEC Product)<br />
+•	&nbsp; &nbsp;Experience in gathering requirements from other components and remote teams in Japan. <br />
+•	&nbsp; &nbsp;Formulated the requirements and developed a design so that existing component can be replaced without changing other components and existing frameworks.<br />
+•	&nbsp; &nbsp;Enhanced distributed grid management systems for HYDRAstor. <br />
+•	&nbsp; &nbsp;The challenge was to replace an in-house node management product for kernel heartbeat monitoring and remote mirror disk utility.<br />
+•	&nbsp; &nbsp;Developed a Proof of concept for replacement of HYDRAstor’s High Availability and Data Replication component.<br />
+•	&nbsp; &nbsp;Implemented replacement using Open Source Software- Pacemaker, Corosync, Distributed Replicated Block Devices (DRBD).<br />
+•	&nbsp; &nbsp;Used Python to write wrapper scripts for support to other components.<br />
+•	&nbsp; &nbsp;Integrated the replacement with other modules.<br /> <br />
+
+Start-Stop Automation Tool<br />
+•	&nbsp; &nbsp;Developed an automation tool measuring HYDRAstor system’s start-stop performance.<br />
+•	&nbsp; &nbsp;Used boot RPM which facilitates “init” script logs.<br />
+•	&nbsp; &nbsp;It facilitates by creating an excel sheet displaying shutdown, boot-up and restart time. </p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info">
+                                    <h3>Trainee - <span style="color:gray; font-size:80%;"> NEC Technologies India Pvt. Ltd. (Sep 2014 - Dec 2014)  </span> </h3>
+                                    <p class="margin-b-5"> Mobile Surveillance System <br />
+•	&nbsp; &nbsp;Worked on requirement gathering and development, in close coordination with the NEC’s Singapore Team.<br />
+•	&nbsp; &nbsp;Developed user interface using JavaScript, Bootstrap and HTML for the System which is responsible for sending the crime scene coordinates to nearest officer based on smallest ETA.<br />
+•	&nbsp; &nbsp;Developed Backend using Java along with Maven. <br />
+•	&nbsp; &nbsp;Used Google Maps API to find coordinates and send them.<br />
+•	&nbsp; &nbsp;Used Hibernate and MySql to fetch the data send face recognition system. </p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+
+                       <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info">
+                                    <h3>Software Developer Intern - <span style="color:gray; font-size:80%;"> Jabong.com (May 2013 - July 2013)  </span> </h3>
+                                    <p class="margin-b-5"> Server Monitoring Tool <br />
+•	&nbsp; &nbsp;Solely developed a server monitoring tool that reports status of the services hosted on any of the Jabong Servers. <br />
+•	&nbsp; &nbsp;Created XML Parser to convert client’s Xml input to string format. <br />
+•	&nbsp; &nbsp;GUI based on WPF provide users with Tachometer representation for displaying Process activity. </p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+         <!-- Projects -->
+        <div id="projects">
+            <div class="bg-color-sky-light" >
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-16">
+                            <h2 align="center">Projects</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="mx-auto section-seperator margin-b-10">
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info row">
+                                    <h3>Remote Code Publisher- 
+                                        <a href="https://github.com/pranjularora/RemoteCodePublisher" 
+                                            style="color:cornflowerblue;font-size:80%;font-weight:normal;" target="_blank">
+                                            &nbsp;&nbsp;&nbsp;view on GitHub 
+                                            <i style="margin-right: 0.5em; " class="icon-social-github icon-4x"></i>
+                                            
+                                        </a>
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> <span style="color:black;font-weight:bold">
+                                        Technology Used- </span>C++, C++ CLI, XML, C++ (Sockets and Multithreading), CSS, JavaScript.</span> 
+                                        <br /> <br /> </p>
+                                        <div class="featured-image text-center">
+                                            <img id="latestProject" style="margin-left:15px;" src="img/codePublisher/code_publisher-1.png" 
+                                                class="img-thumbnail img-responsive" alt="Remote Code Publisher" width="500" height="336">  
+                                                <div style="padding:5px;z-index:5; margin-top: 10px; margin-bottom: 10px;">
+										            <a onclick="previous()" class="group2-Prev"></a>
+										            <a onclick="next()" class="group2-Next"></a>
+                                                </div>  
+                                        </div>   
+                                    <div class = "desc text-left">
+                                     <p class="desc margin-l-10 margin-b-10">
+                                        •	&nbsp; &nbsp;Developed a remote code publisher, local client, and communication channel that supports client 
+                                            access to the publisher from any internet enabled processor. <br />
+                                        •	&nbsp; &nbsp;Developed HTTP-style request/response message and file transactions. <br />
+                                        •	&nbsp; &nbsp;Developed a one-way communication, allowing asynchronous messaging between any two endpoints 
+                                            that are capable of listening for connection requests and connecting to a remote listener. <br />
+                                        •	&nbsp; &nbsp;Facilitated users with the transmission of byte streams of specified stream size (File 
+                                            transfer between client and the publisher(server)). <br />
+                                        •   &nbsp;&nbsp;Publisher accepts source code files from the local client (".cpp", ".h" and ".cs"). <br />
+                                        •   &nbsp;&nbsp;The publisher then runs dependency analysis tool developed previously to find dependencies 
+                                            between files. <br />
+                                        •   &nbsp;&nbsp;The publisher then creates HTML web page files for the source code files including the linking 
+                                            information (i.e. linking all dependent files) and supported navigating to those files. <br />
+                                        •   &nbsp;&nbsp;Also provided support for Lazy Download and IIS Download. <br />
+                                        •   &nbsp;&nbsp;Facilitated GUI that supports- <br />
+                                            &nbsp; &nbsp; 1) &nbsp;&nbsp;Upload source code files to the Remote Publisher. <br />
+                                            &nbsp; &nbsp; 2) &nbsp;&nbsp;Display the web page for any file in that file list by clicking on a 
+                                            Download Button. </p>
+                                    
+                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info row">
+                                    <h3>Type-based Dependency Analysis  
+                                        <a href="https://github.com/pranjularora/TypeBased-DependencyAnalysis" 
+                                            style="color:cornflowerblue;font-size:80%;font-weight:normal;" target="_blank">
+                                            &nbsp;&nbsp;&nbsp;view on GitHub 
+                                            <i style="margin-right: 0.5em; " class="icon-social-github icon-4x"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> 
+                                        <span style="color:black;font-weight:bold">Technology Used- </span> C++, XML, Tarjan’s Algorithm</span> 
+                                        <br /> <br /> 
+                                    </p>
+                                        <p class="desc margin-b-10 margin-l-10">
+                                            •	&nbsp; &nbsp;Developed a type-analysis tool that extracts lexical contents from source code 
+                                            files- “.h”, “.cpp” and “.cs”, analyze the code syntax from its lexical content and generates and abstract syntax tree. <br />
+                                            •	&nbsp; &nbsp;It analyzes the Abstract Syntax Tree and builds a Type Table.<br />
+                                            •	&nbsp; &nbsp;It then scans each source code file and uses the type-table to find out the dependencies 
+                                                between files. <br />
+                                            •	&nbsp; &nbsp;It also finds strong components using Tarjan's Algorithm.<br />
+                                            •	&nbsp; &nbsp;Stores the dependencies and strong components using NoSQL Database(developed previously). 
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info row">
+                                    <h3>NoSQL Database 
+                                        <a href="https://github.com/pranjularora/NoSqlDB" 
+                                            style="color:cornflowerblue;font-size:80%;font-weight:normal;" target="_blank">
+                                            &nbsp;&nbsp;&nbsp;view on GitHub 
+                                            <i style="margin-right: 0.5em; " class="icon-social-github icon-4x"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> 
+                                        <span style="color:black;font-weight:bold">Technology Used- </span> C++, XML</span> <br /> <br />
+                                     </p>
+                                    <p class="desc margin-b-10 margin-l-10">
+                                        •	&nbsp; &nbsp;Developed a Key/Value in-memory database using unordered-map and templates persisted to 
+                                            an XML file. <br />
+                                        •	&nbsp; &nbsp;Facilitated users with a Query Engine that let them query the database.  
+                                    </p>
+                                </div> 
+                            </div>
+                        </div>
+
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height">
+                                <div class="service-info row">
+                                    <h3>Remote Test Harness 
+                                        <a href="https://github.com/pranjularora/Remote-TestHarness" 
+                                            style="color:cornflowerblue;font-size:80%;font-weight:normal;" target="_blank">
+                                            &nbsp;&nbsp;&nbsp;view on GitHub 
+                                            <i style="margin-right: 0.5em; " class="icon-social-github icon-4x"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> <span style="color:black;font-weight:bold">
+                                        Technology Used- 
+                                        </span> 
+                                            C# .NET, WCF, WPF, XML, Multithreading
+                                        </span> <br /> <br /> 
+                                    </p>
+                                        <p class="desc margin-b-10 margin-l-10">
+                                            •	&nbsp; &nbsp;Developed an Automation tool that tests the functionality of multiple client's codes 
+                                            concurrently.<br />
+                                            •	&nbsp; &nbsp;It provides users with continuous integration into the baseline (Local Directory used).<br />
+                                            •	&nbsp; &nbsp;Developed a query engine.<br />
+                                            •	&nbsp; &nbsp;Used WPF to facilitate user with Interface for XML input, uploading files and output.  </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="col-md-3 col-sm-6 md-margin-b-4"> -->
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height" >
+                                <div class="service-info row">
+                                    <h3>Workout Trainer (Android Application)-  
+                                        <a href="https://youtu.be/UebRBd99ub0" target="_blank" style="color:cornflowerblue;font-weight:normal; 
+                                            font-size:80%;"> 
+                                            view application 
+                                            <i style="margin-right: 0.5em; " class="icon-social-youtube icon-4x"></i>
+                                        </a> 
+                                        <a href="https://github.com/pranjularora/WorkoutTrainer" 
+                                            style="color:cornflowerblue;font-size:80%;font-weight:normal;" target="_blank">
+                                            &nbsp;&nbsp;&nbsp;view on GitHub 
+                                            <i style="margin-right: 0.5em; " class="icon-social-github icon-4x"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> 
+                                        <span style="color:black;font-weight:bold">Technology Used- </span> 
+                                        Java, XML, Firebase, JSON, Google API's, Maps, Animations</span> <br /> <br /> 
+                                    </p>
+                                    <!-- <div class="embed-responsive embed-responsive-16by9 padding-zero  col-xs-12 col-sm-4 col-md-4 col-lg-10 col-md-4">
+                                        <iframe style="border: 3px solid #EEE; " src="img/Android Demo_final.mp4" frameborder="0" allowfullscreen></iframe> -->
+                                        <!-- <video controls class="embed-responsive-item ">
+                                            <source src="img/test.mp4" type="video/mp4">
+                                        </video> -->
+                                    <!-- </div>                                     -->
+                                    <!-- <p>
+                                        <a href="img/Android Demo_final.mp4" target="_blank" > 
+                                            <span style="color:gray; font-size:80%;"> View Video </span> 
+                                        </a> 
+                                    </p> -->
+                                    <p class="desc margin-l-10 margin-b-10"> •	&nbsp; &nbsp;Developed a fitness application that provides users with audio and visual feedback while exercising. <br />
+                                    •	&nbsp; &nbsp;Helps users by keeping track of daily schedule and milestones achieved. <br />
+                                    •	&nbsp; &nbsp;The application provides the user with an interface from where the type of workout can be selected. <br />
+                                    •	&nbsp; &nbsp;Facilitated users with Maps to find nearby gyms and distance to the gym from their current location. <br />
+                                    •	&nbsp; &nbsp;Used firebase to store users daily schedule information. <br /> <br />
+                                    </p>
+                                    <p class="desc margin-l-10 margin-b-10">
+                                    <span style="color:black"> Other Features- </span><br /> <br /> 
+                                    •	&nbsp; &nbsp;Retrofit Library <br />
+                                    •	&nbsp; &nbsp;Real API Data- Using Facebook API <br />
+                                    •	&nbsp; &nbsp;Broadcast Receiver, App Shortcuts(Nougat) <br />
+                                    •	&nbsp; &nbsp;Youtube Support <br />
+                                    •	&nbsp; &nbsp;ConstraintLayout and CoordinatorLayout. </p>
+                                </div> 
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-md-3 col-sm-6 md-margin-b-4"> -->
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height" >
+                                <div class="service-info row">
+                                    <h3>Movie Store (Android Application)-  
+                                        <a href="img/Android Demo_final.mp4" target="_blank" style="color:cornflowerblue;font-weight:normal; 
+                                            font-size:80%;"> 
+                                            view application to do
+                                            <i style="margin-right: 0.5em; " class="icon-social-youtube icon-4x"></i>
+                                        </a> 
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> 
+                                        <span style="color:black;font-weight:bold">Technology Used- </span> 
+                                        Java, XML, Firebase, JSON, Google API's, Rest API, Animations</span> <br /> <br /> 
+                                    </p>
+                                    <p class="desc margin-l-10 margin-b-10"> 
+                                        •	&nbsp; &nbsp;Designed and developed movie store application that holds movie information using a 
+                                            recycler view. <br />
+                                        •	&nbsp; &nbsp;Application extracts movie information in a JSON object and stores it on the firebase. <br />
+                                        •	&nbsp; &nbsp;Implemented navigation drawer as a part of user interface and used open source API for 
+                                            animation. <br />
+                                        •	&nbsp; &nbsp;Also, implemented a local storage using XAMPP (SQL and Apache) and used PHP for modification 
+                                            of information in the local store. <br />
+                                    </p>
+                                </div> 
+                            </div>
+                        </div>
+
+
+                        <div class="row col-xs-12 margin-b-10">
+                            <div class="service" data-height="height" >
+                                <div class="service-info row">
+                                    <h3>Syracuse Shuttle App (iOS Application)-  
+                                        <a href="img/Android Demo_final.mp4" target="_blank" style="color:cornflowerblue;font-weight:normal; 
+                                            font-size:80%;"> 
+                                            view application to do
+                                            <i style="margin-right: 0.5em; " class="icon-social-youtube icon-4x"></i>
+                                        </a> 
+                                        <a href="https://github.com/pranjularora/Syracuse-ShuttleApp-iOS" 
+                                            style="color:cornflowerblue;font-size:80%;font-weight:normal;" target="_blank">
+                                            &nbsp;&nbsp;&nbsp;view on GitHub 
+                                            <i style="margin-right: 0.5em; " class="icon-social-github icon-4x"></i>
+                                        </a>
+                                    </h3>
+                                    <p class="margin-b-5"> <span style="color:black"> 
+                                        <span style="color:black;font-weight:bold">Technology Used- </span> 
+                                        Swift 2, MVC Framework</span> <br /> <br /> 
+                                    </p>
+                                    <p class="desc margin-l-10 margin-b-10"> 
+                                        •	&nbsp; &nbsp;Developed a shuttle registration application to enhance student's experience of using 
+                                            Syracuse University shuttle service.<br />
+                                        •	&nbsp; &nbsp;This facilitates driver by displaying destinations on Map (Integrated Google map) with 
+                                            the shortest route to navigate (implemented using shortest path algorithm). <br />
+                                        •   &nbsp;&nbsp; Other functionalities include- Driver and Ride feedback, Emergency aid services.
+                                    </p>
+                                </div> 
+                            </div>
+                        </div>
+
+
+
+
+
+                        
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Testimonials -->
+        <div id="testimonials">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+
+                    <div class="row margin-b-40">
+                        <div class="col-sm-16">
+                            <h2 align="center">Testimonials</h2>
+                        </div>
+                    </div>
+                    
+
+                    <div class="center-block">
+                        <div class="col-md-13 col-sm-6 md-margin-b-4 ">
+                            <div class="service" data-height="auto">
+
+                                <div class="service-info">
+                                    <h3>Anugraga Sinha- <span style="color:gray; font-size:80%;"> Technical Lead at NEC Technologies  </span> </h3>
+                                    <p class="margin-b-5">
+                                        Pranjul worked in my team for about 1.5 years, and I have had a tremendous time leading him. 
+                                        He is one keen fellow, who maintains a regular enthusiasm to learn. I have seen him coming up 
+                                        with new ideas and design alternatives regularly. His contribution has been a key stone in 
+                                        completing number of POCs that we proposed in HydraStor Backup solutions, starting from his 
+                                        work on pacemaker,DRBD & corosync, to developing migration methodologies for newer open source 
+                                        utilities. </p>
+                                        <p class="margin-b-5">
+                                        Pranjul has a keen interest in computer science and has been maintaining a non-ending zeal 
+                                        to work in this field. He has been a heartthrob of many office-mates for extra-curricular 
+                                        activities, sports, and out-of-office events and parties. </p>
+                                        <p class="margin-b-5">
+                                        I wish him all the very best in his new endeavour for higher studies and his wish to work in 
+                                        developing new technology.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="center-block container">
+                        <div class="col-md-13 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="auto">
+
+                                <div class="service-info">
+                                    <h3>Rinky Chaudhary- <span style="color:gray; font-size:80%;"> Linux Platform Engineer, 
+                                        System Administrator at NEC Technologies  </span> </h3>
+                                    <p class="margin-b-5">
+                                        Pranjul worked as MTS for my team at NEC. During this time he showcased skills of a dedicated, 
+                                        sincere employee who is focussed towards results/end goals He worked for various modules which 
+                                        required perl, C/C++, python skills. He also volunteered for customising open source solutions 
+                                        like Corosync, DRBD and Pacemaker for server clustering.
+                                        During this tenure I found his systematic and logical approach towards problem solving very useful 
+                                        for the projects. </p>
+                                        <p class="margin-b-5">
+                                        He is an excellent team player focussed towards project goals.
+
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonials -->
+
+
+
+
+
+        
+        <!-- Promo Banner -->
+        <!-- <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+                <h2 class="promo-banner-title">Displaying the Result</h2>
+                <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            </div>
+        </div> -->
+        <!-- End Promo Banner -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-80">
+                        <div class="col-sm-12 text-center">
+                           <h2>Get in Touch</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <!-- <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a>Syracuse, New York</a>
+                        </div> -->
+                        <div class="col-md-3 col-xs-6 text-center">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/pranjularora" target= "_blank">https://github.com/pranjularora</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30 text-center">
+                            <h4>Phone</h4>
+                            <a>+1 (315) 949-9061</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 text-center">
+                            <h4>Email</h4>
+                            <a href="mailto:parora01@syr.edu">parora01@syr.edu</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 text-center">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/pranjularora/" target= "_blank">https://www.linkedin.com/in/pranjularora/</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo.png" alt="Acecv Logo">
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Acecv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>

@@ -1,0 +1,17 @@
+
+/* ----------- navigation buttons in the nav bar ---------- */
+a.group2-Prev, a.group2-Next, a.group2-Play, a.group2-Pause 
+{
+    width:20px; height:20px; 
+    background:transparent url(navbuttons.gif); 
+    display:inline-block; 
+    *display:inline;zoom:1;/*IE hack*/
+    margin-left:4px; margin-right:4px;
+    cursor:pointer;
+}
+a.group2-Pause{background-position:0 0;}
+a.group2-Play {background-position:0 -20px;}
+a.group2-Next {background-position:0 -40px;}
+a.group2-Prev {background-position:0 -60px;} 
+
+
